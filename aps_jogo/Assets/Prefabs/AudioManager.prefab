@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6810819598617089034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810819598617089032}
+  - component: {fileID: 6810819598617089033}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810819598617089032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810819598617089034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.288353, y: 24.490946, z: -239.64496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6810819598617089033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810819598617089034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94109b8c0a848104db1c36decec34f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - nome: Button
+    clip: {fileID: 8300000, guid: 191e823358bcbdd42933e30f2f3e4582, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - nome: Correct
+    clip: {fileID: 8300000, guid: b3451d534fdc402449c41a21894dc883, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - nome: PickUp
+    clip: {fileID: 8300000, guid: c872d930babd8614dbe587a51e8d3743, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - nome: Wrong
+    clip: {fileID: 8300000, guid: 3b54ea792c1ea1a4d9c2464c2d4c2359, type: 3}
+    volume: 1
+    pitch: 1.48
+    source: {fileID: 0}
+  - nome: Succeeded
+    clip: {fileID: 8300000, guid: a7c282a6ac0c1924da41fdd124ba4757, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - nome: GameOver
+    clip: {fileID: 8300000, guid: 4fc0d2b0c5bafa8428e7d5203e8b9b36, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}

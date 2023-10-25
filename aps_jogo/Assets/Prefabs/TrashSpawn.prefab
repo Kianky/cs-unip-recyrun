@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2170881677993692446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2170881677993692444}
+  - component: {fileID: 2170881677993692445}
+  m_Layer: 0
+  m_Name: TrashSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2170881677993692444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170881677993692446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.4, y: -8.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2170881677993692445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170881677993692446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5a0a51f6f4c294099f1dbc4830a766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lixo:
+  - {fileID: 8064966747281429402, guid: 5e6aa5a8a9da3f84e87cbd0fd9a29db2, type: 3}
+  - {fileID: 1706937231689053423, guid: f3d3aaad9a2a878429062edda89c9438, type: 3}
+  - {fileID: 7539829503072775055, guid: 809f2b7dfea068e43814f44d95335e4e, type: 3}
+  - {fileID: 1145129102674279547, guid: 9ae250af20bed1f41807e19a998016b0, type: 3}
+  - {fileID: 4480402861703165120, guid: ebfe52faa414e084b807c507793a1eeb, type: 3}
+  - {fileID: 4277826608004965314, guid: 82d421aba5efd8540b672adcb0a064ec, type: 3}
+  - {fileID: 9166661001661703078, guid: 618f7aaa642a17547a94bdaee5f1e6c2, type: 3}
+  - {fileID: 695866673856914385, guid: d0548763cf00f2446bc0bc010ea932e8, type: 3}
+  - {fileID: 9077501909180700807, guid: 4c9af8bdcf10f45458b2d7291f7a8196, type: 3}
+  - {fileID: 6446870361639840657, guid: 89a5362132a38144e8b49ff4441d506b, type: 3}
+  - {fileID: 3690006348818836408, guid: fd136b842b26eb444a97c6d43e0c6cec, type: 3}
+  - {fileID: 336590238059641926, guid: f126e4e702974e748be744dddcb43420, type: 3}
+  spawnPoints: []

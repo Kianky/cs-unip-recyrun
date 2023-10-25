@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 3d9aa6c0ceb96554a915c5e62888aa55
+  - enabled: 1
+    path: Assets/Scenes/Centro.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Suburbio.unity
+    guid: e899865c935ac7549a52e62c895c18db
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: d0d00a78a6b05d14784201279ef15f96
+  m_configObjects: {}
